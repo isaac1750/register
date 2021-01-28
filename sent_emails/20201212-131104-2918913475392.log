@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: bbonsu1750@gmail.com
+Date: Sat, 12 Dec 2020 21:11:04 -0000
+Message-ID: <160780746456.164.5414454381130785810@DESKTOP-D2RQICS>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/accounts/reset/Mg/aerrag-fda2c6fd2ebdac92d862f35277e53642/
+
+Your username, in case you’ve forgotten: bbonsu1750@gmail.com
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------

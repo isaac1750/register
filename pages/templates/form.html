@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="form-group">
+<form action="" method="post">
+   {% csrf_token %}
+   
+
+  
+    <label for="formGroupExampleInput">Email</label>
+    <!-- <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input"> -->
+    {{ form.email }}
+  </div>
+  
+    <label for="formGroupExampleInput2">Name</label>
+    <!-- <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"> -->
+    {{ form.name }}
+  </div>
+  
+    <label for="formGroupExampleInput">Address1</label>
+    <!-- <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input"> -->
+    {{ form.address1}}
+  </div>
+  
+    <label for="formGroupExampleInput2">Address2</label>
+    <!-- <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"> -->
+    {{ form.address2 }}
+  </div>
+  
+    <label for="formGroupExampleInput2">City</label>
+    <!-- <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"> -->
+    {{ form.city }}
+  </div>
+  
+
+  <button type="submit" class="btn btn-primary">Sign in</button>
+
+</div>
+
+</form>
+{% endblock %}
+
+
+
+ 
